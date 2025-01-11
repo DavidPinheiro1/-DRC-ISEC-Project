@@ -1,0 +1,51 @@
+*{
+    font-family: 'source sans 3', 'calibri', 'sans-serif';
+}
+
+.grid-7{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+   
+}
+
+.imagem{
+    grid-row: 1;
+}
+
+.imagem-info{
+    border-radius: 60px;
+}
+
+.texto-info{
+    grid-row: 2;
+    
+
+}
+
+.texto-text{
+    font-family: 'calibri';
+    font-size: 22px; /* ou 1.4rem*/
+    font-weight: 900;
+    color:#788a97;
+    margin: 10px 0px 20px 0px;
+    
+
+}
+
+.texto-info2{
+    grid-row: 3;
+    
+}
+
+.texto-text2{
+    font-size:18px; /* ou1.1rem*/
+    font-weight: 300;
+    opacity: 0.4;
+    color:#536975;
+   margin: auto;
+    
+}
+
+
